@@ -22,7 +22,7 @@ function About() {
           Do you want to work together? Please reach out to me by e-mail.
           <a
             href="/"
-            className="cursor-pointer w-fit block uppercase mt-4 px-4 pt-2 pb-3 text-sm font-bold bg-[#acbded] text-[#262d3d]"
+            className="cursor-pointer w-fit block uppercase mt-4 px-4 pt-2 pb-3 text-sm font-bold bg-[#acbded] text-[#262d3d] hover:text-white"
           >
             Mail me
           </a>
