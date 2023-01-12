@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background-color: hsl(250, 28%, 12%);
+  font-family: "Poppins", sans-serif;
+}
+
+.service:hover svg,
+.service:hover h2 {
+  color: #6e57e0;
+  transition: all 0.3s ease;
+}
